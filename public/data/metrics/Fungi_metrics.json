@@ -1,0 +1,106 @@
+[
+  {
+    "model": "RandomForest",
+    "accuracy": 0.9701492537313433,
+    "precision": 0.75,
+    "recall": 0.375,
+    "f1_score": 0.5,
+    "f1_weighted": null,
+    "mcc": 0.5176656540786658,
+    "roc_auc": 0.9064119170984455,
+    "confusion_matrix": [
+      [
+        192,
+        1
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "n_train": 801,
+    "n_test": 201,
+    "class_counts_train": {
+      "0": 770,
+      "1": 31
+    }
+  },
+  {
+    "model": "XGBoost",
+    "accuracy": 0.9701492537313433,
+    "precision": 0.625,
+    "recall": 0.625,
+    "f1_score": 0.625,
+    "f1_weighted": null,
+    "mcc": 0.6094559585492227,
+    "roc_auc": 0.9034974093264249,
+    "confusion_matrix": [
+      [
+        190,
+        3
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "n_train": 801,
+    "n_test": 201,
+    "class_counts_train": {
+      "0": 770,
+      "1": 31
+    }
+  },
+  {
+    "model": "LightGBM",
+    "accuracy": 0.9651741293532339,
+    "precision": 0.5714285714285714,
+    "recall": 0.5,
+    "f1_score": 0.5333333333333333,
+    "f1_weighted": null,
+    "mcc": 0.5165686727467532,
+    "roc_auc": 0.905440414507772,
+    "confusion_matrix": [
+      [
+        190,
+        3
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "n_train": 801,
+    "n_test": 201,
+    "class_counts_train": {
+      "0": 770,
+      "1": 31
+    }
+  },
+  {
+    "model": "CatBoost",
+    "accuracy": 0.9751243781094527,
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1_score": 0.7058823529411765,
+    "f1_weighted": null,
+    "mcc": 0.6942526361476257,
+    "roc_auc": 0.9436528497409327,
+    "confusion_matrix": [
+      [
+        190,
+        3
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "n_train": 801,
+    "n_test": 201,
+    "class_counts_train": {
+      "0": 770,
+      "1": 31
+    }
+  }
+]
