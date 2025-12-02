@@ -1,4 +1,4 @@
-# VirMODE---RNA-Virus-Transmission
+# VirMODE---RNA-Virus/Host-Transmission
 
 Predicting virus-host associations and transmission modes is essential for understanding viral ecology, host range determination, and the potential for cross-species transmission events. The rapid expansion of viral genomic and proteomic data, coupled with advances in structural bioinformatics, has created unprecedented opportunities to decode the molecular determinants of viral transmission.
 ViralMODE addresses this challenge by providing an accessible, scalable, and biologically interpretable AI-fueled pipeline for large-scale viral protein analysis and transmission prediction. The pipeline introduces a conceptual structural framework for exploring the modular architecture of viral proteins through a Modulome-driven approach. It integrates geometric motif detection, low-dimensional structural embeddings, intrinsic disorder modeling, and sequence-derived energetic profiling to decode protein biophysical determinants of viral host range and transmission.
